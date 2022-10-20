@@ -16,6 +16,7 @@ body {
     background-color: var(--white);
     font-family: 'Roboto','Raleway', sans-serif;
     color: var(--carbon); 
+    margin: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -135,6 +136,7 @@ p {
     font-size: 26px;
     line-height: 1.4;
     letter-spacing: 0.03em;  
+    margin-bottom: 20px;
 }
 
 .menu {
@@ -235,6 +237,7 @@ p {
     font-style: normal;
     color: var(--white);
     filter: opacity(60%);
+    line-height: 24px;
 }
 
 
@@ -252,7 +255,9 @@ p {
 
 .address {
     font-style: inherit;
-    padding-top: 20px;
+    padding-top: 11px;
+    letter-spacing: 0,03em;
+    line-height: 24px;
 }
 
 .container {
@@ -282,6 +287,7 @@ border-bottom: 1px solid var(--border-color);
     display: inline-flex;
     align-content: center;
     letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
 .navigation-list-item {
@@ -293,7 +299,7 @@ border-bottom: 1px solid var(--border-color);
 
 .kontakt-list {
     display: flex;
-    margin-left: 299px;
+    margin-left: 280px;
 }
 
 .kontakt-list-item {
@@ -326,13 +332,13 @@ border-bottom: 1px solid var(--border-color);
 
 .image-list-item {
     display: flex;
-    list-style-type: none;   
+    list-style-type: none;  
 }
 
 .person-name-list {
     display: flex;
     list-style-type: none;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap:30px;
     padding: 0;
 }
@@ -379,7 +385,7 @@ border-bottom: 1px solid var(--border-color);
     display: flex;
     list-style: none;
     justify-content: center;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
 }
 
 .botton-list-item {
@@ -388,6 +394,10 @@ border-bottom: 1px solid var(--border-color);
 }
 
 .figcaption-portfolio {
-    border: 1px solid var(--border-image);
+    border-bottom: 1px solid var(--border-image);
     padding: 20px 24px;
+}
+
+.contact-list li {
+    margin-top: 4px;
 }
